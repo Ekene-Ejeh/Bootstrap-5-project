@@ -13,8 +13,8 @@
 	</head>
 	<body>
 		<div class="container my-4">
-			<h1 class="text-center my-3">Typography</h1>
 			<div class="row">
+				<h1 class="text-center my-3">Typography</h1>
 				<h1>h1. Bootstrap Heading</h1>
 				<h2>h2. Bootstrap Heading</h2>
 				<h3>h3. Bootstrap Heading</h3>
@@ -22,11 +22,9 @@
 				<h5>h5. Bootstrap Heading</h5>
 				<h6>h6. Bootstrap Heading</h6>
 			</div>
-		</div>
 
-		<div class="container my-4">
-			<h3 class="text-center my-3">Display Size</h3>
 			<div class="row">
+				<h3 class="text-center my-3">Display Size</h3>
 				<h1 class="display-1">Display 1</h1>
 				<h1 class="display-2">Display 2</h1>
 				<h1 class="display-3">Display 3</h1>
@@ -34,7 +32,82 @@
 				<h1 class="display-5">Display 5</h1>
 				<h1 class="display-6">Display 6</h1>
 			</div>
+
+			<div class="row">
+				<h3 class="text-center my-3">Blockquote</h3>
+				<div class="row">
+					<div class="col-lg-4">
+						<h4>Normal</h4>
+						<blockquote class="blockquote">
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Sapiente, ducimus.
+							</p>
+						</blockquote>
+					</div>
+					<div class="col-lg-4">
+						<h4>Normal with Footer</h4>
+						<figure class="text-center">
+							<blockquote class="blockquote">
+								<p>A known quote, contained in a blockquote element</p>
+							</blockquote>
+							<figcaption class="blockquote-footer">
+								Someone famous in <cite title="Source Title">Source Title</cite>
+							</figcaption>
+						</figure>
+					</div>
+          <div class="col-lg-4">
+							<h4>Text-end</h4>
+							<figure class="text-end">
+								<blockquote class="blockquote">
+									<p>A known quote, contained in a blockquote element</p>
+								</blockquote>
+								<figcaption class="blockquote-footer">
+									Someone famous in
+									<cite title="Source Title">Source Title</cite>
+								</figcaption>
+							</figure>
+          </div>
+					</div>
+				</div>
+
+        <div class="row">
+          <h3 class="text-center my-3">Lists</h3>
+          <!-- With no styling -->
+          <h4>with no styling</h4>
+          <ul class="list-unstyled">
+            <li>Line number 1</li>
+            <li>Line number 2</li>
+            <li>Line number 3</li>
+            <li>Line number 4</li>
+            <li>Line number 5</li>
+            <!-- there is styling -->
+            <h4>with styling</h4>
+            <ul>
+              <li>Subline number 1</li>
+              <li>Subline number 2</li>
+              <li>Subline number 3</li> 
+            </ul>
+          </ul>
+          <!-- inline list styling -->
+          <h4>Inline List styling</h4>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              This is a List item
+            </li>
+            <li class="list-inline-item">
+              But on the same line
+            </li>
+            <li class="list-inline-item">
+              With other List, Strange?
+            </li>
+          </ul>
+
+
+        </div>
+			</div>
 		</div>
+
 		<script src="js/bootstrap.js"></script>
 	</body>
 </html>
