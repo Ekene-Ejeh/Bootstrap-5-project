@@ -13,10 +13,70 @@
 	</head>
 	<body>
 		<div class="container my-4">
-			<h1 class="text-center my-4">Responsive Images</h1>
-			<div style="width: 40%; border: 5px red solid">
-				<img src="https://picsum.photos/250/250" alt="" class="img-fluid" />
+			<div class="">
+				<h1 class="text-center my-4">Responsive Images</h1>
+				<div style="width: 40%; border: 5px red solid">
+					<img
+						src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-dark.jpg"
+						alt=""
+						class="img-fluid"
+					/>
+				</div>
 			</div>
+
+			<div class="">
+				<h4 class="my-4">Thumbnail</h4>
+				<img
+					src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-dark.jpg"
+					alt=""
+					class="img-thumbnail w-50"
+				/>
+			</div>
+
+			<div class="">
+				<h4 class="my-4">Alignment</h4>
+				<img
+					src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-dark.jpg"
+					alt=""
+					class="float-end w-25"
+				/>
+				<div class="clearfix">
+					Clearfix used to fill up the space bcus of the float
+				</div>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga possimus
+					illum impedit cupiditate ab aliquam doloremque autem debitis beatae
+					voluptatum corrupti pariatur expedita fugit cum nulla esse,
+					praesentium quae fugiat. Rem nisi amet exercitationem voluptate
+					eveniet ducimus beatae autem in repellat! Dignissimos adipisci maxime
+					eos totam, dolorem dolores dolor dicta soluta illum quia consectetur
+					inventore atque officiis veniam placeat est esse in! Omnis, fugiat
+					voluptatibus nesciunt quisquam dolorem tenetur ducimus perspiciatis
+					voluptate quae nisi, modi, esse veniam consequuntur accusantium!
+					Veniam ipsum libero alias blanditiis quibusdam saepe magni nam facere
+					quam!
+				</p>
+			</div>
+
+			<div>
+				<h4 class="my-4">Centering a Picture with rounded corners</h4>
+				<img
+					src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-dark.jpg"
+					alt=""
+					class="d-block mx-auto w-25 rounded"
+				/>
+			</div>
+
+			<picture>
+				<h4 class="my-4">Picture</h4>
+				<source
+					srcset="
+						https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-dark.jpg
+					"
+					type="image/svg+xml"
+				/>
+				<img src="" class="img-fluid img-thumbnail" alt="..." />
+			</picture>
 		</div>
 		<script src="js/bootstrap.js"></script>
 	</body>
