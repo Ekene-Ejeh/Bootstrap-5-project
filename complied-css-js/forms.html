@@ -52,7 +52,7 @@
 							cols="30"
 							rows="6"
 							class="form-control"
-							placeholder="Write a Message"
+							placeholder="Write a Message Here"
 						></textarea>
 
 						<div class="text-center">
@@ -63,6 +63,61 @@
 					</form>
 				</div>
 			</div>
+<!-- Using floating label class -->
+			<h4 class="my-4 text-center">Using Form Floating Label Class</h4>
+						<div class="row justify-content-center my-3">
+				<div class="col-lg-6">
+					<form action="">
+						<div class="form-floating my-5">
+						<input
+							type="name"
+							id="name"
+							name="name"
+							placeholder="Name"
+							class="form-control"
+						/>
+						<label for="name" class="form-label">Name:</label>
+						</div>
+
+						<div class="form-floating my-3">
+						<input
+							type="email"
+							id="email"
+							name="email"
+							placeholder="my@email.com"
+							class="form-control"
+						/>
+						<label for="email" class="form-label">Email:</label>
+						</div>
+
+						<label for="subject" class="form-label">Subject</label>
+						<select name="subject" id="subject" class="form-select">
+							<option value="Mathematics">Mathematics</option>
+							<option value="English">English</option>
+							<option value="Economics">Economics</option>
+							<option value="Other">Other</option>
+						</select>
+
+						<div class="form-floating my-5">
+						<textarea
+							name="query"
+							id="query"
+							style="height: 100px"
+							class="form-control"
+							placeholder="Write a Message"
+						></textarea>
+
+						<label for="query">Write a Message Here</label>
+						</div>
+
+
+						<div class="text-center">
+							<button type="submit" class="btn btn-outline-primary my-2">
+								Send
+							</button>
+						</div>
+					</form>
+				</div>
 		</div>
 		<script src="js/bootstrap.js"></script>
 	</body>
